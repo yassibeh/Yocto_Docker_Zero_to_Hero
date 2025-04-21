@@ -10,6 +10,7 @@ services:
         USER_GID: ${GID}
     image: yocto-builder:stm32mp135f
     container_name: yocto-stm32
+    hostname: yocto-stm32
     volumes:
       - ${PWD}:/home/${USERNAME}/yocto
     working_dir: /home/${USERNAME}/yocto
