@@ -1,0 +1,7 @@
+{
+    // Recommended VS Code extensions for this project
+    "recommendations": [
+        "docker.docker",                // Docker support
+        "ms-vscode-remote.remote-containers" // Dev Containers
+    ]
+}
