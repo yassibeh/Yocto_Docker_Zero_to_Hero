@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     xz-utils unzip texinfo zstd libegl1-mesa \
     libsdl1.2-dev pylint3 cpio cmake ninja-build \
     libglib2.0-dev screen rsync gcc g++ make locales \
+    lz4  \
     && apt-get clean
 
 # Install repo manually (not available via apt)
