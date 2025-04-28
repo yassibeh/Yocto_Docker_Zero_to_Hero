@@ -1,10 +1,10 @@
-# Yocto_Docker_Zero_to_Hero
- dvanced experimentation using Docker and Yocto to build specific image For the SM32MP135F
+# Isolated_environment_for_yocto_vscode
+Advanced experimentation using DevContainer and yocto_extension to improve productivity and create an isolated environment for the yocto project 
 
 
 
-Yocto Docker Environment for STM32MP135F
-========================================
+First tests : DevContainer environment to build a image for the STM32MP135F
+=============================================================================
 
 This project sets up a clean, portable Docker-based environment for building Yocto images targeting the STM32MP135F board. It avoids permission issues by matching container user permissions with the host user.
 
